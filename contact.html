@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا - عين الكفيف الذكية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>تواصل معنا</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">عن المشروع</a></li>
+                    <li><a href="features.html">المميزات</a></li>
+                    <li><a href="Contact.html">تواصل معنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="contact">
+        <div class="container">
+            <h2>اتصل بنا</h2>
+            <form action="send_email.php" method="POST">
+                <label for="name">الاسم</label>
+                <input type="text" id="name" name="name" required placeholder="أدخل اسمك">
+
+                <label for="email">البريد الإلكتروني</label>
+                <input type="email" id="email" name="email" required placeholder="أدخل بريدك الإلكتروني">
+
+                <label for="message">الرسالة</label>
+                <textarea id="message" name="message" rows="4" required placeholder="اكتب رسالتك هنا"></textarea>
+
+                <button type="submit">إرسال</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 عين الكفيف الذكية - جميع الحقوق محفوظة</p>
+        </div>
+    </footer>
+</body>
+</html>
